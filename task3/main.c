@@ -1,28 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    float asset_cost, residual_value;
-    int useful_life;
-    float depreciation;
+    float hourly_wage = 30; // UGX
+    int hours_per_week = 40;
+    int weeks_per_year = 52;
+    float salary;
 
-    // Input asset cost
-    printf("Enter the asset cost in UGX: ");
-    scanf("%f", &asset_cost);
+    // Calculate annual salary
+    annual_salary = hour
 
-    // Input residual value
-    printf("Enter the residual value in UGX: ");
-    scanf("%f", &residual_value);
-
-    // Input useful life in years
-    printf("Enter the useful life in years: ");
-    scanf("%d", &useful_life);
-
-    // Calculate depreciation
-    depreciation = (asset_cost - residual_value) / useful_life;
+    ly_wage * hours_per_week * weeks_per_year;
 
     // Display the result
-    printf("Annual depreciation: UGX %.2f\n", depreciation);
-    system("pause");
+    printf("Annual sry: UGX %.2f\n", annual_salary);
 
     return 0;
 }
