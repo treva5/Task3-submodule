@@ -3,7 +3,7 @@
 int main() {
     float asset_cost, residual_value;
     int useful_life;
-    float depron;
+    float depreciation;
 
     // Input asset cost
     printf("Enter the asset cost in UGX: ");
@@ -11,17 +11,18 @@ int main() {
 
     // Input residual value
     printf("Enter the residual value in UGX: ");
-    scanf("%f", &_value);
+    scanf("%f", &residual_value);
 
     // Input useful life in years
-    printf(" the useful life in years: ");
-    scanf("%d", &useful);
+    printf("Enter the useful life in years: ");
+    scanf("%d", &useful_life);
 
     // Calculate depreciation
-    depreciation = (asset_cost -lue) / useful_life;
+    depreciation = (asset_cost - residual_value) / useful_life;
 
     // Display the result
-    printf("Annual depreciation: Un", depreciation);
+    printf("Annual depreciation: UGX %.2f\n", depreciation);
+    system("pause");
 
     return 0;
 }
