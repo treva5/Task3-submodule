@@ -1,20 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    float sales_volume;
-    float commission_rate = 0.05; // 5%
-    float commission;
+    float asset_cost, residual_value;
+    int useful_life;
+    float depron;
 
-    // Prompt the user to enter the sales volume
-    printf("Enter the sales volume in UGX: ");
-    scanf("%f", &sales_volume);
+    // Input asset cost
+    printf("Enter the asset cost in UGX: ");
+    scanf("%f", &asset_cost);
 
-    // Calculate the commission
-    commission = sales_volume * commission_rate;
+    // Input residual value
+    printf("Enter the residual value in UGX: ");
+    scanf("%f", &_value);
 
-    // Display the commission
-    printf("The commission for sales of UGX %.2f at 5%% rate is: UGX %.2f\n", sales_volume, commission);
-    system("pause");
+    // Input useful life in years
+    printf(" the useful life in years: ");
+    scanf("%d", &useful);
+
+    // Calculate depreciation
+    depreciation = (asset_cost -lue) / useful_life;
+
+    // Display the result
+    printf("Annual depreciation: Un", depreciation);
 
     return 0;
 }
