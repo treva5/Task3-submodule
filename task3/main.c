@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int total_sales;
-    int days = 30;
-    float average_sales;
+    float sales_volume;
+    float commission_rate = 0.05; // 5%
+    float commission;
 
-    // Prompt user to enter total sales
-    printf("Enter total sales in UGX: ");
-    scanf("%d", &total_sales);
+    // Prompt the user to enter the sales volume
+    print the sales volume in UGX: ");
+    scanf("%f", &sales_volume);
 
-    // Calculate average sales with typecasting
-    average_sales = (float)total_sales / days;
+    // Calculate the commission
+    commission =
 
-    // Output the result
-    printf("Average sales per day: UGX %.2f\n", average_sales);
-    system("pause");
+    // Display the commission
+    printf("The commission for sales of UGX %.2f at 5%% rate is: UGX %.2f\n", sales_volume, commission);
 
     return 0;
 }
